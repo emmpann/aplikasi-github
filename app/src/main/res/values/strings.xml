@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aplikasi Github User</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"></string>
+    <string name="searchbar_hint">Cari nama</string>
+    <string name="photo_profile_description">photo profile</string>
+    <string name="content_tab_section">Followers $s</string>
+    <string name="tv_followers">%d Followers</string>
+    <string name="tv_following">%d Following</string>
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="menu_setting">Settings</string>
+    <string name="menu_favorite">Favorite</string>
+</resources>
