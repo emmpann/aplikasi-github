@@ -3,4 +3,9 @@
     <style name="Theme.AplikasiGithubUser" parent="Theme.Material3.Dark.NoActionBar">
         <!-- Primary brand color. -->
     </style>
+
+    <style name="ToolbarTitle">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:textSize">18sp</item>
+    </style>
 </resources>

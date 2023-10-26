@@ -18,4 +18,9 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(activityMainBinding.root)
     }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return super.onSupportNavigateUp()
+    }
 }

@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.StringRes
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.viewModels
 import androidx.viewpager2.widget.ViewPager2
 import com.bumptech.glide.Glide
@@ -90,6 +91,12 @@ class DetailFragment : Fragment() {
                     detailViewModel.deleteFavoriteUser(favUser)
                 }
             }
+        }
+
+        (requireActivity() as AppCompatActivity).apply {
+            setSupportActionBar(binding.toolbar)
+            supportActionBar?.title = null
+            supportActionBar?.setDisplayHomeAsUpEnabled(true)
         }
     }
 
